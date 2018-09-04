@@ -1,0 +1,19 @@
+.container{
+    margin: 0 auto;
+    width: 96%;
+}
+
+/*Green Button*/
+.button{
+    /*Não flutua*/
+    display: inline-block;
+
+    background-color: green;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;    
+    padding: 25px 40px;
+    border-radius: 6px;
+    box-shadow: 2px 2px 3px black;
+    margin-top: 18px;   
+}

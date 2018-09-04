@@ -1,0 +1,35 @@
+.panel-form .title{
+    text-align: center;
+    padding-top: 32px;
+    color: orangered;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.panel-form .form-campos {
+    display: block;
+    margin: 0 auto;
+    
+}
+.panel-form .form-campos label{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.panel-form .form-campos .form-input{
+    width: 90%;
+    border: solid .5px;
+    border-radius: 4px;
+    height: 20px;
+    box-shadow: 0 2px 5px #7187C1;
+    margin-top: 4px;
+    padding: 4px;
+    font-size: 16px;
+}
+
+.button-position {
+    text-align: center;
+}
+

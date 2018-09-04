@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/estilo_about.css">
+    <link rel="stylesheet" href="css/palestrantes.css">
+    <link rel="stylesheet" href="css/formEstilo.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Projeto Final</title>
+</head>
+<body>
+
+    <header class="header">
+        <nav class="main-menu">
+            <ul>
+                <li class="menu-item"> <a href="#panel-about" id="btn-sobre">Sobre</a> </li>
+                <li class="menu-item"> <a href="#panel-palestrantes" id="btn-palestrantes">Palestrantes</a> </li>
+            </ul>            
+        </nav>
+        <div class="jumbotron">
+            <section class="panel-main">
+                    <h1 class="title">AluraConf</h1>
+                    <h2 class="subtitle">30maio|Rio</h2>        
+            </section>
+            <section class="panel-subscribe">
+                    <a href="#form-inscreva-se" class="button" id="btn-inscreva-se">Inscreva-se</a>    
+            </section>                
+        </div>        
+    </header>
+
+    <section id="panel-about" class="panel panel-about">
+        <div class="container">
+                <h2 class="title">Muito conteúdo: do FrontEnd ao BackEnd</h2>
+                <h3 class="subtitle">30 de Maio de 2017 - na Cidade Maravilhosa</h3>
+                
+                <div class="about-description">
+                    <p>Com a AluraConf abordaremos o que há de novidade e conhecimentos essencias a um desenvolvedor mobile</p>
+        
+                    <p>É uma grande chance de ficar por dentro dos assuntos de Android , iOS, Web mobile, desenvolvimento híbidro, Ux, além da parte backend com Rest, Microserves e BigData. O desenvolvedor atualizado vai estar aqui.</p>
+                </div>
+        </div>        
+    </section>
+
+    <section id="panel-palestrantes" class="panel panel-palestrantes">
+        
+        <div class="about-palestrantes">
+                <h2 class="title">Palestrantes</h2>
+                <h3 class="subtitle">Aprenda com palestrantes que são referencia no mercado</h3>
+        </div>
+        
+        <div class="container">
+            <ul class="palestrantes">
+                <li class="palestrante">
+                    <figure>
+                        <img src="img/palestrantes/placeholder.jpeg" alt="foto-palestrante">
+                        <figcaption class="palestrante-name"> Guilherme Sabino</figcaption>
+                        <p class="palestrante-bio">desenvolvedor X</p>
+                    </figure>
+                    <p class="palestra-description">To be or not to be Indie</p>
+                </li>
+                <li class="palestrante">
+                        <figure>
+                            <img src="img/palestrantes/placeholder.jpeg" alt="foto-palestrante">
+                            <figcaption class="palestrante-name"> Guilherme Sabino</figcaption>
+                            <p class="palestrante-bio">Desenvolvedor X</p>
+                        </figure>
+                        <p class="palestra-description">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI. </p>
+                </li>
+                <li class="palestrante">
+                        <figure>
+                            <img src="img/palestrantes/placeholder.jpeg" alt="foto-palestrante">
+                            <figcaption class="palestrante-name"> Guilherme Sabino</figcaption>
+                            <p class="palestrante-bio">desenvolvedor X</p>
+                        </figure>
+                        <p class="palestra-description">To be or not to be Indie</p>
+                </li>
+                <li class="palestrante">
+                        <figure>
+                            <img src="img/palestrantes/placeholder.jpeg" alt="foto-palestrante">
+                            <figcaption class="palestrante-name"> Guilherme Sabino</figcaption>
+                            <p class="palestrante-bio">desenvolvedor X</p>
+                        </figure>
+                        <p class="palestra-description">To be or not to be Indie</p>
+                </li>
+                <li class="palestrante">
+                        <figure>
+                            <img src="img/palestrantes/placeholder.jpeg" alt="foto-palestrante">
+                            <figcaption class="palestrante-name"> Guilherme Sabino</figcaption>
+                            <p class="palestrante-bio">desenvolvedor X</p>
+                        </figure>
+                        <p class="palestra-description">Lorem Ipsum é simplesmente o século XVI.</p>
+                </li>
+                <li class="palestrante">
+                        <figure>
+                            <img src="img/palestrantes/placeholder.jpeg" alt="foto-palestrante">
+                            <figcaption class="palestrante-name"> Guilherme Sabino</figcaption>
+                            <p class="palestrante-bio">desenvolvedor X</p>
+                        </figure>
+                        <p class="palestra-description">To be or not to be Indie</p>
+                </li>
+
+            </ul>
+        </div>
+    </section>
+
+    <section id="form-inscreva-se" class="panel-form container">    
+        <h2 class="title">Seus Dados</h2>
+
+        <div class=" container">
+                <form action="#">
+                        <div  class="form-campos">
+                            <label for="form-name">Nome</label>
+                            <input class ="form-input" type="text" id="form-name" placeholder="Digite seu nome">
+                        </div>                                
+            
+                        <div class="form-campos">
+                            <label for="form-email">Email</label>                
+                            <input class="form-input" type="email" placeholder="Digite seu e-mail">
+                        </div>            
+                        <div class="button-position">
+                            <button class="button" type="submit">Realizar Inscrição</button>
+                        </div>
+                    
+                </form>   
+        </div>        
+    </section>
+    <script src="js/jquery.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html> 
